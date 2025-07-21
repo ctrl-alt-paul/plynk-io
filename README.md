@@ -1,9 +1,8 @@
+
 # 🎮 PLYNK-IO — Player Link, Input Output
 
 [![Buy Me a Beer](https://github.com/ctrl-alt-paul/plynk-io/blob/main/buymeabeer.png)](https://buymeacoffee.com/ctrl_alt_paul)  
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor%20on-GitHub-%23EA4AAA?logo=github)](https://github.com/sponsors/Ctrl-Alt-Paul)
-
-[📖 **View the full PLYNK-IO Wiki →**](https://github.com/ctrl-alt-paul/plynk-io/wiki)
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor%20on-GitHub-%23EA4AAA?logo=github)](https://github.com/sponsors/CtrlAltPaul)
 
 **PLYNK-IO** is a gloriously overengineered I/O control system for emulated arcade games. It hijacks game data in real time — from memory addresses to emulator broadcasts — and lets you fire it off to real-world devices like LEDs, serial devices, WLED devices, motors, solenoids, and anything else you can bolt to a cabinet.
 
@@ -30,6 +29,7 @@ Also in the works is PLYNK, a frontend game launcher (think LaunchBox, but less 
 - 🎨 **LED Effects** — fully map game values to segment colours, brightness, and animation profiles  
 - 📈 **Live Dashboard** — monitor game data, output activity, device health and logging in real time  
 - 📦 **JSON Config Profiles** — portable, shareable, editable outside the app
+- ⚡ **Scripts** — create custom automation sequences with conditional logic and device control
 - 🌐 **GitHub Community Integration** — submit, browse, import, and vote on memory/message profiles  
   - 🗳️ **Feedback System** — vote ✅ 🟡 ❌ on community profiles and leave feedback in-app  
   - 🧾 **Profile Submission Tools** — submit your own profiles to GitHub directly from the app  
@@ -111,6 +111,17 @@ Advanced lighting logic:
 - Define segments, effect IDs, brightness, and RGB colour
 - Can control multiple segments from a single game variable
 - WLED config import support
+
+---
+
+### ⚡ Scripts
+Custom automation sequences:
+- Create programmable logic with If/ElseIf/Else conditional statements
+- Control PacDrive, WLED, Serial devices, and program execution
+- Test scripts with simulated input values in real-time
+- Chain multiple steps for sophisticated automation sequences
+- Drag-and-drop step reordering and visual script editing
+- Enable/disable scripts without deletion for easy management
 
 ---
 
